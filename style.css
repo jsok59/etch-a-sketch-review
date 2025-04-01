@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width:760px;
+    height:760px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-container {
+    border: 1px solid black;
+    flex: 1;
+    display: flex;
+}
+
+.cell {
+    flex: 1;
+    border: 2px solid black;
+}
